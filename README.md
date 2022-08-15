@@ -16,7 +16,7 @@ The company has two general rider types: those who purchase single-ride or full-
 
 ## :two: Business Task
 
-The business task is to determine how members and casual riders use the company's bikeshare services differently. The company is hoping that the insights gained from analyzing its historical bike trip data will drive the design of marketing strategies aimed at converting casual riders into annual members.
+The business task is to determine how members and casual riders use the company's bikeshare services differently. The company is hoping that the insights gained from analyzing its historical bike trip data will drive the design of marketing strategies aimed at converting casual riders into members.
 
 ## :three: Data Sources
 
