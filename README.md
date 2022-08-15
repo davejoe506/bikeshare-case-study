@@ -7,7 +7,7 @@
 ### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations)  
 ### :six: [Conclusion](README.md#six-conclusion)  
 ### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis)  
-
+  
 ## :one: Introduction
 
 ## :two: Business Task
