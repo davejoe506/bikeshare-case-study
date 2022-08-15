@@ -1,21 +1,23 @@
 ## Table of Contents
 
 :one: [Introduction](README.md#introduction)
-2. [Business Task](README.md#business-task)
-3. [Data Sources](README.md#data-sources)
-4. [Data Exploration and Processing](README.md#data-exploration-and-processing)
-5. [Data Analysis and Visualizations](README.md#data-analysis-and-visualizations)
-6. [Conclusion](README.md#conclusion)
-7. [Extending This Analysis](README.md#extending-this-analysis)
+:two: [Business Task](README.md#business-task)
+:three: [Data Sources](README.md#data-sources)
+:four: [Data Exploration and Processing](README.md#data-exploration-and-processing)
+:five: [Data Analysis and Visualizations](README.md#data-analysis-and-visualizations)
+:six: [Conclusion](README.md#conclusion)
+:seven: [Extending This Analysis](README.md#extending-this-analysis)
 
-## Introduction
+## :one: Introduction
 
-## Data Sources
+## :two: Business Task
 
-## Data Exploration and Processing
+## :three: Data Sources
 
-## Data Analysis and Visualizations
+## :four: Data Exploration and Processing
 
-## Conclusion
+## :five: Data Analysis and Visualizations
 
-## Extending This Analysis
+## :six: Conclusion
+
+## :seven: Extending This Analysis
