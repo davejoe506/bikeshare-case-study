@@ -12,15 +12,21 @@
 
 This case study is the capstone project of the Google Data Analytics Professional Certificate program. The scenario involves analyzing the trip data for a bikeshare company in Washington DC. 
 
-The company has two general consumer segments: those who purchase single-ride or full-day passes (casual riders) and those who purchase annual memberships (annual members). The company believes its future success depends on maximizing the number of annual memberships.
+The company has two general rider types: those who purchase single-ride or full-day passes (casual riders) and those who purchase annual memberships (members). The company believes its future success depends on maximizing the number of annual memberships.
 
 ## :two: Business Task
 
-The business task is to determine how annual members and casual riders user the company's bikeshare services differently. The company is hoping that the insights gained from analyzing its historical bike trip data will drive the design of marketing strategies aimed at converting casual riders into annual members.
+The business task is to determine how members and casual riders user the company's bikeshare services differently. The company is hoping that the insights gained from analyzing its historical bike trip data will drive the design of marketing strategies aimed at converting casual riders into annual members.
 
 ## :three: Data Sources
 
-For the purposes of this case study, 
+The bikeshare company used in case study is fictitious, but for the purposes of this project, I used Washington DC's Capital Bikeshare historical trip data made available by Lyft Bikes and Scooters, LLC under the Capital Bikeshare Data License Agreement.
+
+Notes
+  * The historial trip data is available from 2010 onwards in `.csv` format.
+  * The business is interested in looking at the previous 12 months of data, so the date range of this analysis is July 2021 to June 2022.
+  * The data is at the individual trip level and includes fields for trip duration, start date and time, end date and time, start station, end station, bike ID number, and rider type (member/casual).
+  * As per the Capital Bikeshare System Data website, the data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of their “test” stations at their warehouses, and any trips lasting less than 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
 ## :four: Data Exploration and Processing
 
