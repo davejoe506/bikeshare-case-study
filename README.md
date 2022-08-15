@@ -7,7 +7,7 @@
 ### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations)  
 ### :six: [Conclusion](README.md#six-conclusion)  
 ### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis)  
-
+<br/>
 ## :one: Introduction
 
 This case study is the capstone project of the Google Data Analytics Professional Certificate program. The scenario involves analyzing the trip data for a bikeshare company in Washington DC. 
