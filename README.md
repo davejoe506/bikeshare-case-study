@@ -26,6 +26,7 @@ Notes
 * The historical trip data is available from 2010 onwards in `.csv` format.
 * The business is interested in looking at the previous 12 months of data, so the date range of this analysis is July 2021 to June 2022.
 * The data is at the individual trip level and includes fields for bike type, start date and time, end date and time, start station name, id, end station, bike ID number, and rider type (member/casual).
+  * bike type
 * As per the [Capital Bikeshare System Data website](https://ride.capitalbikeshare.com/system-data), the data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of their “test” stations at their warehouses, and any trips lasting less than 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
 ## :four: Data Exploration and Processing
