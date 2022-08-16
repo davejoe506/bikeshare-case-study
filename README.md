@@ -36,6 +36,15 @@ Notes
 
 ## :four: Data Exploration and Processing
 
+Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into BigQuery and use SQL to explore and process the data.
+
+Notes
+* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. In addition, I added new variables that could potentially be useful during analyis:
+  * ride length
+  * day of week
+  * season (i.e. Winter, Spring, etc.)
+  A view of this query can be found here. 
+
 ## :five: Data Analysis and Visualizations
 
 ## :six: Conclusion
