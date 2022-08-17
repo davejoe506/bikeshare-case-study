@@ -38,12 +38,7 @@ Notes
 
 Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into BigQuery and use SQL to explore and process the data.
 
-* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has 3,205,919 observations. In addition, I added new variables that could potentially be useful during analysis:
-  * ride length
-  * day of week
-  * season (i.e. Winter, Spring, etc.)  
-
-A view of this query can be found here. 
+* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has 3,205,919 observations. In addition, I added new variables that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found here. 
 * To further inspect and explore the appended table, I conducted some data validation diagnostics:
   * I checked for duplicate observations and did not find any. A view of this query can be found here.
   * I checked for null values in all fields. Null values were found in the start station name and ID fields, as well as the end station name, ID, and locational fields, but were not found in any non-station-related fields. A view of this query can be found here.
