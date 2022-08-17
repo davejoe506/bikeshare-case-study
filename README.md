@@ -42,6 +42,7 @@ Since an appended version of the previous 12 months of trip data would be millio
   * ride length
   * day of week
   * season (i.e. Winter, Spring, etc.)  
+
 A view of this query can be found here. 
 * To further inspect and explore the appended table, I conducted some data validation diagnostics:
   * I checked for duplicate observations and did not find any. A view of this query can be found here.
