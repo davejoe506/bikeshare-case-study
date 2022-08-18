@@ -37,13 +37,15 @@ Notes
 ## :four: Data Exploration and Processing
 
 Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into BigQuery and took the following course of action to explore and process the data using SQL:
-* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has 3,205,919 observations. In addition, I added new variables that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found here. 
-* To further inspect and explore the appended table, I conducted some data validation diagnostics:
-  * I checked for duplicate observations and did not find any. A view of this query can be found here.
-  * I checked for null values in all fields. Null values were found in the start station name and ID fields, as well as the end station name, ID, and locational fields, but were not found in any non-station-related fields. A view of this query can be found here.
-    * I checked to see if I could deduce any null start station and end station values based on populated values in corresponding fields, but I was not able to reliably deduce any null values. A view of this queries can be found here, here, and here.
-  * I returned a list of the distinct values in the start station name and end station name fields and looked at how they compared. All of the start station name values can be found in the end station name field, and the end station name field contains two additional values: "V1 Warehouse Test Station" and ""Motivate Tech Office".
-    * 
+* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has 3,205,919 observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](v_trips_all_unclean). 
+* I conducted the following data validation diagnostics:
+  * I checked for duplicate observations and did not find any. A view of this query can be found [here](v_check_dups).
+  * I checked for null values in all fields, and found null values in 6 of the 18 fields. A view of this query can be found here [here](v_trips_all_unclean).
+    * I checked to see if I could deduce any null values based on populated values in corresponding fields (i.e. deducing null start station name values based on populated start latitude and start longitude values), but I was not able to reliably deduce any null values. A view of these queries can be found [here](v_deduce_null_ssn), [here](v_deduce_null_esn), and [here](v_deduce_null_el).
+  * I returned lists of the non-overlap values in the start station name and end station name fields. All of the start station name values can be found in the end station name field, and the end station name field contains two additional values: "V1 Warehouse Test Station" and ""Motivate Tech Office". A view of these queries can be found [here](v_ssn_not_in_esn) and [here](v_esn_not_in_ssn).
+    * As mentioned in the Data Sources section, trips taken to/from the company's "test" stations at their warehouses should have already been removed, but the appearance of "V1 Warehouse Test Station" and "Motivate Tech Office" values seems to conflict with this statement. I checked to see how many observations contained station name values that included the terms "warehouse" or "office, and found that there were 239 such observations, which is 0.007% of the total observations. A view of this query can be found [here](v_test_trip_count).
+  * Also mentioned in the Data Sources section, trips lasting less than 60 seconds should have already been removed from the data. I checked to confirm this, as well as checked for other potential outlier ride lengths (trips with negative ride lengths, trips lasting longer than 24 hours). In total, I found that there were 47,126 trips with outlier ride lengths, which is 1.47% of the total observations. A view of this query can be found [here](v_outlier_rl_count).
+  * 
 
 
 ## :five: Data Analysis and Visualizations
