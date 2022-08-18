@@ -22,7 +22,7 @@ The business task is to determine how members and casual riders use the company'
 
 The bikeshare company used in this case study is fictitious, but for the purposes of this project, I used Washington DC's [Capital Bikeshare historical trip data](https://s3.amazonaws.com/capitalbikeshare-data/index.html) made available by Lyft Bikes and Scooters, LLC under the [Capital Bikeshare Data License Agreement](https://ride.capitalbikeshare.com/data-license-agreement).
 
-Notes
+Notes:
 * The historical trip data is available from 2010 onwards in `.csv` format.
 * The business is interested in looking at the previous 12 months of data, so the date range of this analysis is July 2021 to June 2022.
 * The data is at the individual trip level and includes fields for:
