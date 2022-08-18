@@ -36,7 +36,7 @@ Notes:
 
 ## :four: Data Exploration and Processing
 
-Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into BigQuery and took the following course of action to explore and process the data using SQL:
+Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into a BigQuery database and took the following course of action to explore and process the data using SQL:
 
 * I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](v_trips_all_unclean). 
 * I conducted the following data validation diagnostics:
