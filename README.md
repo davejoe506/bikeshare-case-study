@@ -38,7 +38,7 @@ Notes:
 
 Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into a BigQuery database and took the following course of action to explore and process the data using SQL:
 
-* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](v_trips_all_unclean). 
+* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/1_trips_all_unclean.sql). 
 * I conducted the following data validation diagnostics:
   * I checked for duplicate observations and did not find any. A view of this query can be found [here](v_check_dups).
   * I checked for null values in all fields, and found null values in 6 of the 18 fields for a total of `253,340` null values, which is `7.90%` of the total observations. A view of these queries can be found [here](v_check_nulls) and [here](v_null_count).
