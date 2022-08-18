@@ -31,7 +31,7 @@ Notes:
   * end date and time 
   * start station name, ID, and location 
   * end station name, ID, and location
-  * rider type (member/casual).
+  * rider type (member/casual)
 * As per the [Capital Bikeshare System Data website](https://ride.capitalbikeshare.com/system-data), the data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of their “test” stations at their warehouses, and any trips lasting less than 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
 ## :four: Data Exploration and Processing
