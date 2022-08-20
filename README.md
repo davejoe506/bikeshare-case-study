@@ -3,7 +3,7 @@
 ### :one: [Introduction](README.md#one-introduction)  
 ### :two: [Business Task](README.md#two-business-task)  
 ### :three: [Data Sources](README.md#three-data-sources)  
-### :four: [Data Exploration and Processing](README.md#four-data-exploration-and-processing)  
+### :four: [Data Cleaning](README.md#four-data-cleaning)  
 ### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations)  
 ### :six: [Conclusion](README.md#six-conclusion)  
 ### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis)  
@@ -34,9 +34,9 @@ Notes:
   * rider type (member/casual)
 * As per the [Capital Bikeshare System Data website](https://ride.capitalbikeshare.com/system-data), the data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of their “test” stations at their warehouses, and any trips lasting less than 60 seconds (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
-## :four: Data Exploration and Processing
+## :four: Data Cleaning
 
-Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into a BigQuery database and took the following course of action to explore and process the data using SQL:
+Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into a BigQuery database and took the following course of action to clean the data using SQL:
 
 * I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/1_trips_all_unclean.sql). 
 * I conducted the following data validation diagnostics:
@@ -48,7 +48,7 @@ Since an appended version of the previous 12 months of trip data would be millio
   * Also mentioned in the Data Sources section, trips lasting less than 60 seconds should have already been removed from the data. I checked to confirm this, as well as checked for other potential outlier ride lengths (trips with negative ride lengths, trips lasting longer than 24 hours). In total, I found that there were `47,126` trips with outlier ride lengths, which is `1.47%` of the total observations. A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/2_outlier_rl_count.sql).
 * Aftering considering the null values, the "test" station values, and the outlier ride length values, I thought it would be appropriate to drop the observations containing them from the analysis. After dropping them, the clean table has `2,917,902` observations, which is `91.02%` of the total observations.  A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/3_trips_all_clean.sql).
 
-The aforementioned SQL data exploration and processing queries involved using `UNION ALL`, `EXCEPT`, `JOIN`, _aggregate functions_, _window functions_, _common table expressions_, _subqueries_, and various other SQL functions.
+The aforementioned SQL data cleaning queries involved using `UNION ALL`, `EXCEPT`, `JOIN`, _aggregate functions_, _window functions_, _common table expressions_, _subqueries_, and various other SQL functions.
 
 ## :five: Data Analysis and Visualizations
 
