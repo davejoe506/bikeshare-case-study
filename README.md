@@ -107,5 +107,5 @@ Based on the analysis, here are my top three takeways and my top three recommend
 Here are some ideas to extend the analysis:
 * Follow up with company to confirm whether or not the "test" station values and outlier ride length values were properly handled.
 * Follow up with company to see if any of the null values can be reliably deduced; if so, rerun the analysis to see if any of the insights have changed. 
-* Based on data available in the analysis, look at how members and casual riders differ based on trip distance and trip time of day data.
+* Based on data available in the analysis, look at how members and casual riders differ based on trip distance and trip time-of-day data.
 * Inquire with company to see if trip data can be linked to user information (in some sort of randomized way to ensure data privacy); linking trip data to user information would be useful to look at how many members and how many casual riders exist in the data, and to see how the rider type share compares between total users and total trips.
