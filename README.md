@@ -10,7 +10,7 @@
 &nbsp;
 ## :one: Introduction
 
-This case study is the capstone project of the Google Data Analytics Professional Certificate program. The scenario involves analyzing the trip data for a bikeshare company in Washington DC. 
+This case study is the capstone project of the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) program. The scenario involves analyzing the trip data for a bikeshare company in Washington DC. 
 
 The company has two general rider types: those who purchase single-ride or full-day passes (casual riders) and those who purchase annual memberships (members). The company believes its future success depends on maximizing the number of annual memberships.
 
