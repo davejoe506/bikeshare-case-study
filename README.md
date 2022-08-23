@@ -55,27 +55,27 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 ### Share and Number of Trips by Rider Type
 ![trips_by_rt](https://user-images.githubusercontent.com/107435563/186161555-6b621974-1b7a-4e2c-baf4-a69f0d2ea7a0.png)
 #### **Insight**
-* From July 2021 to June 2022, member riders made up around 60% of total trips and took 1.76 million trips, or about 600,000 more trips than casual riders.
+* From July 2021 to June 2022, member riders made up around 60% of total trips and took close to 1.76 million trips, or about 600,000 more trips than casual riders.
 
 ### Number of Trips by Day of Week and Rider Type
 ![trips_by_dow_rt](https://user-images.githubusercontent.com/107435563/186161742-94605ac8-627a-4d48-b58c-2e01254fd489.png)
 #### **Insights**
 * On Saturdays and Sundays, member riders and casual riders took a similar number of trips, taking between 200,000 and 250,000 trips each day during the time period.
-* Member riders tended to take more trips on weekdays versus weekends, with daily trips being the most on Wednesdays at over 275,000 during the time period.
-* Casual riders tended to take fewer trips on weekdays versus weekends, with daily trips ranging between 128,000 and 139,000 from Mondays through Thursdays during the time period.
+* Member riders tended to take more trips on weekdays versus weekends, with daily trips being the most on Wednesdays at over 275,000.
+* Casual riders tended to take fewer trips on weekdays versus weekends, with daily trips ranging between 128,000 and 139,000 from Mondays through Thursdays.
 
 ### Number of Trips by Month/Season and Rider Type
 ![trips_by_m_s_rt](https://user-images.githubusercontent.com/107435563/186162681-f0f288b3-00e4-4a46-b26c-7a7ce8827b21.png)
 #### **Insights**
-* For both member and casual riders, the number of trips in the winter dropped precipitously compared to the number of trips in the other seasons.
-* For member riders, the number of trips stayed above 140,000 in each of the non-winter months, with trips peaking in June at close to 195,000 and with trips staying above 170,000 in May, September, and October.
+* For both member and casual riders, the number of trips in the winter dropped precipitously compared to the number in the other seasons.
+* For member riders, the number of trips stayed above 140,000 in each of the non-winter months, with trips peaking in June at close to 195,000 and with trips staying above 170,000 in May, September, and October, respectively.
 * While September and October saw a relative resurgence in trips for member riders, these early fall months were not as popular with casual riders. The number of trips was highest for casual members from April to July, staying above 125,000 in each of these months and peaking at close to 165,000 in June.
 
 ### Number of Trips by Rider Type and Bike Type
 ![trips_by_bt_rt](https://user-images.githubusercontent.com/107435563/186163044-110ea0fe-3faf-4271-8c20-290871231fbd.png)
 #### **Insights**
-* The percentage of electric bike trips of total member rider trips and total casual rider trips were very similar at nearly 10%, respectively.
-* Classic bike trips make up a larger percentage of member trips than casual trips (~90% versus ~71%). The difference in these percentages is made up by the docked bike category that only exists in the casual rider type observations.
+* The percentage of electric bike trips of total member rider trips and of total casual rider trips was very similar at nearly 10% each.
+* Classic bike trips make up a larger percentage of member trips than casual trips (~90% versus ~71%). The difference in these percentages was made up by the docked bike category that only exists in the casual rider type observations.
 
 ### Average Ride Length in Minutes by Rider Type
 ![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186161945-99881874-9932-4242-9425-b1705a78a433.png)
