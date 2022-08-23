@@ -67,28 +67,32 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 ### Number of Trips by Month/Season and Rider Type
 ![trips_by_m_s_rt](https://user-images.githubusercontent.com/107435563/186162681-f0f288b3-00e4-4a46-b26c-7a7ce8827b21.png)
 #### **Insights**
-* 
+* For both member and casual riders, the number of trips in the winter dropped precipitously compared to the number of trips in the other seasons.
+* For member riders, the number of trips stayed above 140,000 in each of the non-winter months, with trips peaking in June at close to 195,000 and with trips staying above 170,000 in May, September, and October.
+* While September and October saw a relative resurgence in trips for member riders, these early fall months were not as popular with casual riders. The number of trips was highest for casual members from April to July, staying above 125,000 in each of these months and peaking at close to 165,000 in June.
 
 ### Number of Trips by Rider Type and Bike Type
 ![trips_by_bt_rt](https://user-images.githubusercontent.com/107435563/186163044-110ea0fe-3faf-4271-8c20-290871231fbd.png)
 #### **Insights**
-*
+* The percentage of electric bike trips of total member rider trips and total casual rider trips were very similar at nearly 10%, respectively.
+* Classic bike trips make up a larger percentage of member trips than casual trips (~90% versus ~71%). The difference in these percentages is made up by the docked bike category that only exists in the casual rider type observations.
 
 ### Average Ride Length in Minutes by Rider Type
 ![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186161945-99881874-9932-4242-9425-b1705a78a433.png)
-#### **Insights**
-*
+#### **Insight**
+* The average ride length of member riders was less than half of casual riders (~13 minutes versus ~31 minutes).
 
 ### Average Ride Length in Minutes by Day of Week and Rider Type
 ![avg_rl_by_dow_rt](https://user-images.githubusercontent.com/107435563/186162071-4926c3f0-07df-4d50-a7a8-2659b3602e1d.png)
 #### **Insights**
-*
+* The average ride length of member riders stayed relatively constant throughout the week, ranging from around 12.5 to 14.5 minutes.
+* The average ride length of casual riders was longer on weekends than on weekdays (especially Tuesdays through Thursdays). The average ride length was around 34 minutes on Saturdays and Sundays, which was about 7 minutes longer than the average ride length between Tuesdays and Thursdays. 
 
 ### Top 10 Start Stations by Number of Trips for Casual Riders
 ![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186160390-cccc9f80-0a1c-4249-bc1f-ad59ba2456fc.png)
 ![top_10_ssn_c](https://user-images.githubusercontent.com/107435563/186160429-5230e0d5-5af6-43a2-bf34-234c2a406cee.png)
-#### **Insights**
-*
+#### **Insight**
+* Most casual rider trips originated on or near the National Mall, with the Lincoln Memorial being the most popular station to start a trip.
 
 ## :six: Conclusion
 
