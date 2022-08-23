@@ -5,7 +5,7 @@
 ### :three: [Data Sources](README.md#three-data-sources-1)  
 ### :four: [Data Cleaning and Exploration](README.md#four-data-cleaning-and-exploration-1)  
 ### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations-1)  
-### :six: [Conclusion](README.md#six-conclusion-1)  
+### :six: [Conclusion and Recommendations](README.md#six-conclusion-and-recommendations-1)  
 ### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis-1)  
 &nbsp;
 ## :one: Introduction
@@ -94,7 +94,7 @@ The following data visualizations were created using Tableau Public.
 #### **Insight**
 * Most casual rider trips originated on or near the National Mall, with the Lincoln Memorial being the most popular station to start a trip.
 
-## :six: Conclusion
+## :six: Conclusion and Recommendations
 
 ## :seven: Extending This Analysis
 '
