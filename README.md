@@ -80,7 +80,7 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 ### Average Ride Length in Minutes by Rider Type
 ![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186161945-99881874-9932-4242-9425-b1705a78a433.png)
 #### **Insight**
-* The average ride length of member riders was less than half of casual riders (~13 minutes versus ~31 minutes).
+* The average ride length of member riders was less than half that of casual riders (~13 minutes versus ~31 minutes).
 
 ### Average Ride Length in Minutes by Day of Week and Rider Type
 ![avg_rl_by_dow_rt](https://user-images.githubusercontent.com/107435563/186162071-4926c3f0-07df-4d50-a7a8-2659b3602e1d.png)
