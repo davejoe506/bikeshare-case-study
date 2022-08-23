@@ -24,7 +24,7 @@ The bikeshare company used in this case study is fictitious, but for the purpose
 
 Notes:
 * The historical trip data is available from 2010 onwards in `.csv` format.
-* The business is interested in looking at the previous 12 months of data, so the date range of this analysis is July 2021 to June 2022.
+* The company is interested in looking at the previous 12 months of data, so the date range of this analysis is **July 2021 to June 2022**.
 * The data is at the individual trip level and includes fields for:
   * bike type
   * start date and time
@@ -38,7 +38,7 @@ Notes:
 
 Since an appended version of the previous 12 months of trip data would be millions of observations, I decided to import the data into a BigQuery database and took the following course of action to clean and explore the data using SQL:
 
-* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. Winter, Spring, etc.) A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/1_trips_all_unclean.sql). 
+* I appended tables for each month from July 2021 to June 2022 to create one table that covers the previous year of trips. The appended table has `3,205,919` observations. In addition, I added new fields that could potentially be useful during analysis, including ride length, day of week, and season (i.e. winter, spring, etc.) A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/1_trips_all_unclean.sql). 
 * I conducted the following data validation diagnostics:
   * I checked for duplicate observations and did not find any. A view of this query can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/2_check_dups.sql).
   * I checked for null values in all fields, and found null values in 6 of the 18 fields for a total of `253,340` null values, which is `7.90%` of the total observations. A view of these queries can be found [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/2_check_nulls.sql) and [here](https://github.com/davejoe506/bikeshare_case_study/blob/main/2_null_count.sql).
@@ -55,38 +55,38 @@ The following data visualizations were created using Tableau Public.
 ### Share and Number of Trips by Rider Type
 ![trips_by_rt](https://user-images.githubusercontent.com/107435563/186161555-6b621974-1b7a-4e2c-baf4-a69f0d2ea7a0.png)
 #### **Insight**
-* From July 2021 to June 2022, member riders made up around 60% of total trips and took close to 1.76 million trips, or about 600,000 more trips than casual riders.
+* From July 2021 to June 2022, member riders made up around `60%` of total trips and took close to `1.76 million` trips, or about `600,000` more trips than casual riders.
 
 ### Number of Trips by Day of Week and Rider Type
 ![trips_by_dow_rt](https://user-images.githubusercontent.com/107435563/186161742-94605ac8-627a-4d48-b58c-2e01254fd489.png)
 #### **Insights**
-* On Saturdays and Sundays, member riders and casual riders took a similar number of trips, taking between 200,000 and 250,000 trips each day during the time period.
-* Member riders tended to take more trips on weekdays versus weekends, with daily trips being the most on Wednesdays at over 275,000.
-* Casual riders tended to take fewer trips on weekdays versus weekends, with daily trips ranging between 128,000 and 139,000 from Mondays through Thursdays.
+* On Saturdays and Sundays, member riders and casual riders took a similar number of trips, taking between `200,000` and `250,000` trips each day cumulatively during the time period.
+* Member riders tended to take more trips on weekdays versus weekends, with daily trips being the most on Wednesdays at over `275,000`.
+* Casual riders tended to take fewer trips on weekdays versus weekends, with daily trips ranging between `128,000` and `139,000` from Mondays through Thursdays.
 
 ### Number of Trips by Month/Season and Rider Type
 ![trips_by_m_s_rt](https://user-images.githubusercontent.com/107435563/186162681-f0f288b3-00e4-4a46-b26c-7a7ce8827b21.png)
 #### **Insights**
 * For both member and casual riders, the number of trips in the winter dropped precipitously compared to the number in the other seasons.
-* For member riders, the number of trips stayed above 140,000 in each of the non-winter months, with trips peaking in June at close to 195,000 and with trips staying above 170,000 in May, September, and October, respectively.
-* While September and October saw a relative resurgence in trips for member riders, these early fall months were not as popular with casual riders. The number of trips was highest for casual members from April to July, staying above 125,000 in each of these months and peaking at close to 165,000 in June.
+* For member riders, the number of trips stayed above `140,000` in each of the non-winter months, with trips peaking in June at close to `195,000` and with trips staying above `170,000` in May, September, and October, respectively.
+* While September and October saw a relative resurgence in trips for member riders, these early fall months were not as popular with casual riders. The number of trips was highest for casual members from April to July, staying above `125,000` in each of these months and peaking at close to `165,000` in June.
 
 ### Number of Trips by Rider Type and Bike Type
 ![trips_by_bt_rt](https://user-images.githubusercontent.com/107435563/186163044-110ea0fe-3faf-4271-8c20-290871231fbd.png)
 #### **Insights**
 * The percentage of electric bike trips of total member rider trips and of total casual rider trips was very similar at nearly 10% each.
-* Classic bike trips make up a larger percentage of member trips than casual trips (~90% versus ~71%). The difference in these percentages was made up by the docked bike category that only exists in the casual rider type observations.
+* Classic bike trips make up a larger percentage of member trips than casual trips (`~90%` versus `~71%`). The difference in these percentages was made up by the docked bike category that only exists in the casual rider type observations.
 
 ### Average Ride Length in Minutes by Rider Type
-![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186198248-99990a85-b38d-4ae8-bf30-18a0dbad4acd.png)
+![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186219175-51dbc9e5-53b1-4c19-9ecd-d0a924fbd2c7.png)
 #### **Insight**
-* The average ride length of member riders was less than half that of casual riders (~13 minutes versus ~31 minutes).
+* The average ride length of member riders was less than half that of casual riders (`~13 minutes` versus `~31 minutes`).
 
 ### Average Ride Length in Minutes by Day of Week and Rider Type
 ![avg_rl_by_dow_rt](https://user-images.githubusercontent.com/107435563/186162071-4926c3f0-07df-4d50-a7a8-2659b3602e1d.png)
 #### **Insights**
-* The average ride length of member riders stayed relatively constant throughout the week, ranging from around 12.5 to 14.5 minutes.
-* The average ride length of casual riders was longer on weekends than on weekdays (especially Tuesdays through Thursdays). The average ride length was around 34 minutes on Saturdays and Sundays, which was about 7 minutes longer than the average ride length between Tuesdays and Thursdays. 
+* The average ride length of member riders stayed relatively constant throughout the week, ranging from around `12.5` to `14.5` minutes.
+* The average ride length of casual riders was longer on weekends than on weekdays (especially Tuesdays through Thursdays). The average ride length was around `34` minutes on Saturdays and Sundays, which was about `7` minutes longer than the average ride length between Tuesdays and Thursdays. 
 
 ### Top 10 Start Stations by Number of Trips for Casual Riders
 ![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186160390-cccc9f80-0a1c-4249-bc1f-ad59ba2456fc.png)
@@ -95,7 +95,7 @@ The following data visualizations were created using Tableau Public.
 * Most casual rider trips originated on or near the National Mall, with the Lincoln Memorial being the most popular station to start a trip.
 
 ## :six: Conclusion and Recommendations
-Based on the analysis, here are my top 3 takeways and my top 3 recommendations to help convert casual riders into members:
+Based on the analysis, here are my top three takeways and my top three recommendations to help convert casual riders into members:
 * **Takeway #1:** The number of trips for casual riders was highest on weekends from April through July.
   * **Recommendation #1:** Marketing efforts should focus on weekends in late spring and early summer to maximize the number of casual riders that could potentially be converted to members.
 * **Takeway #2:** The average ride length of casual riders was more than double that of member riders.
@@ -107,5 +107,5 @@ Based on the analysis, here are my top 3 takeways and my top 3 recommendations t
 Here are some ideas to extend the analysis:
 * Follow up with company to confirm whether or not the "test" station values and outlier ride length values were properly handled.
 * Follow up with company to see if any of the null values can be reliably deduced; if so, rerun the analysis to see if any of the insights have changed. 
-* Based on data available in the analysis, look at how members and casual riders differ based on trip distance and trip time of data.
+* Based on data available in the analysis, look at how members and casual riders differ based on trip distance and trip time of day data.
 * Inquire with company to see if trip data can be linked to user information (in some sort of randomized way to ensure data privacy); linking trip data to user information would be useful to look at how many members and how many casual riders exist in the data, and to see how the rider type share compares between total users and total trips.
