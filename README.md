@@ -6,7 +6,7 @@
 ### :four: [Data Cleaning and Exploration](README.md#four-data-cleaning-and-exploration-1)  
 ### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations-1)  
 ### :six: [Conclusion and Recommendations](README.md#six-conclusion-and-recommendations-1)  
-### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis-1)  
+### :seven: [Extending The Analysis](README.md#seven-extending-the-analysis-1)  
 &nbsp;
 ## :one: Introduction
 
@@ -103,5 +103,9 @@ Based on the analysis, here are my top 3 takeways and my top 3 recommendations t
 * **Takeway #3:** Most casual rider trips originated on or near the National Mall.
   * **Recommendation #3:** The marketing team should consider deploying resources to the National Mall to capture casual riders that could potentially be converted to members. 
 
-## :seven: Extending This Analysis
-'
+## :seven: Extending The Analysis
+Here are some ideas to extend the analysis:
+* Follow up with company to confirm whether or not the "test" station values and outlier ride length values were properly handled.
+* Follow up with company to see if any of the null values can be reliably deduced; if so, rerun the analysis to see if any of the insights have changed. 
+* Based on data available in the analysis, look at how members and casual riders differ based on trip distance and trip time of data.
+* Inquire with company to see if trip data can be linked to user information (in some sort of randomized way to ensure data privacy); linking trip data to user information would be useful to look at how many members and how many casual riders exist in the data, and to see how the rider type share compares between total users and total trips.
