@@ -78,7 +78,7 @@ The following data visualizations were created using Tableau Public.
 * Classic bike trips make up a larger percentage of member trips than casual trips (~90% versus ~71%). The difference in these percentages was made up by the docked bike category that only exists in the casual rider type observations.
 
 ### Average Ride Length in Minutes by Rider Type
-![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186161945-99881874-9932-4242-9425-b1705a78a433.png)
+![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186198248-99990a85-b38d-4ae8-bf30-18a0dbad4acd.png)
 #### **Insight**
 * The average ride length of member riders was less than half that of casual riders (~13 minutes versus ~31 minutes).
 
@@ -95,6 +95,10 @@ The following data visualizations were created using Tableau Public.
 * Most casual rider trips originated on or near the National Mall, with the Lincoln Memorial being the most popular station to start a trip.
 
 ## :six: Conclusion and Recommendations
+Based on the analysis, here are my top 3 takeways and my top 3 recommendations to help convert casual riders into members:
+* Takeway #1: The number of trips for casual riders was highest on weekends and from April through July.
+  * Recommendation #1: Marketing efforts should focus on weekends in late spring and early summer to maximize the number of casual riders that could potentially be converted to members.
+* Takeway #2: 
 
 ## :seven: Extending This Analysis
 '
