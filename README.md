@@ -54,25 +54,39 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 
 ### Share and Number of Trips by Rider Type
 ![trips_by_rt](https://user-images.githubusercontent.com/107435563/186161555-6b621974-1b7a-4e2c-baf4-a69f0d2ea7a0.png)
+#### **Insights**
+*
 
 ### Number of Trips by Day of Week and Rider Type
 ![trips_by_dow_rt](https://user-images.githubusercontent.com/107435563/186161742-94605ac8-627a-4d48-b58c-2e01254fd489.png)
+#### **Insights**
+*
 
 ### Number of Trips by Month/Season and Rider Type
 ![trips_by_m_s_rt](https://user-images.githubusercontent.com/107435563/186162681-f0f288b3-00e4-4a46-b26c-7a7ce8827b21.png)
+#### **Insights**
+*
 
 ### Number of Trips by Rider Type and Bike Type
 ![trips_by_bt_rt](https://user-images.githubusercontent.com/107435563/186163044-110ea0fe-3faf-4271-8c20-290871231fbd.png)
+#### **Insights**
+*
 
 ### Average Ride Length in Minutes by Rider Type
 ![avg_rl_by_rt](https://user-images.githubusercontent.com/107435563/186161945-99881874-9932-4242-9425-b1705a78a433.png)
+#### **Insights**
+*
 
 ### Average Ride Length in Minutes by Day of Week and Rider Type
 ![avg_rl_by_dow_rt](https://user-images.githubusercontent.com/107435563/186162071-4926c3f0-07df-4d50-a7a8-2659b3602e1d.png)
+#### **Insights**
+*
 
 ### Top 10 Start Stations by Number of Trips for Casual Riders
 ![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186160390-cccc9f80-0a1c-4249-bc1f-ad59ba2456fc.png)
 ![top_10_ssn_c](https://user-images.githubusercontent.com/107435563/186160429-5230e0d5-5af6-43a2-bf34-234c2a406cee.png)
+#### **Insights**
+*
 
 ## :six: Conclusion
 
