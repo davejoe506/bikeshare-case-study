@@ -99,7 +99,7 @@ Based on the analysis, here are my top 3 takeways and my top 3 recommendations t
 * **Takeway #1:** The number of trips for casual riders was highest on weekends from April through July.
   * **Recommendation #1:** Marketing efforts should focus on weekends in late spring and early summer to maximize the number of casual riders that could potentially be converted to members.
 * **Takeway #2:** The average ride length of casual riders was more than double that of member riders.
-  * **Recommendation #2:** Figuring out ways to make longer rides more appealing as a member versus a casual rider would be beneficial in potentially driving user conversion .
+  * **Recommendation #2:** Figuring out ways to make longer rides more appealing as a member versus a casual rider would be beneficial in potentially driving user conversion.
 * **Takeway #3:** Most casual rider trips originated on or near the National Mall.
   * **Recommendation #3:** The marketing team should consider deploying resources to the National Mall to capture casual riders that could potentially be converted to members. 
 
