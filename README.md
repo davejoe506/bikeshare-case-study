@@ -51,7 +51,7 @@ Since an appended version of the previous 12 months of trip data would be millio
 The aforementioned SQL data cleaning and exploration queries involved using `UNION ALL`, `EXCEPT`, `JOIN`, _aggregate functions_, _window functions_, _common table expressions_, _subqueries_, and various other SQL functions.
 
 ## :five: Data Analysis and Visualizations
-
+The following data visualizations were created using Tableau Public.
 ### Share and Number of Trips by Rider Type
 ![trips_by_rt](https://user-images.githubusercontent.com/107435563/186161555-6b621974-1b7a-4e2c-baf4-a69f0d2ea7a0.png)
 #### **Insight**
