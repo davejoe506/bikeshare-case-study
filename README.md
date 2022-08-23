@@ -52,11 +52,9 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 
 ## :five: Data Analysis and Visualizations
 
-![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186158479-16894727-7ff5-402e-ab75-2a92a1a55a37.png)
-
-
-![top_10_ssn_c](https://user-images.githubusercontent.com/107435563/186158251-d1607338-1550-4ca6-ad22-ce6190cff9df.png)
-
+### Top 10 Start Stations by Number of Trips for Casual Riders
+![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186160390-cccc9f80-0a1c-4249-bc1f-ad59ba2456fc.png)
+![top_10_ssn_c](https://user-images.githubusercontent.com/107435563/186160429-5230e0d5-5af6-43a2-bf34-234c2a406cee.png)
 
 ## :six: Conclusion
 
