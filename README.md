@@ -1,12 +1,12 @@
 ## Table of Contents
 
-### :one: [Introduction](README.md#one-introduction)  
-### :two: [Business Task](README.md#two-business-task)  
-### :three: [Data Sources](README.md#three-data-sources)  
-### :four: [Data Cleaning and Exploration](README.md#four-data-cleaning-and-exploration)  
-### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations)  
-### :six: [Conclusion](README.md#six-conclusion)  
-### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis)  
+### :one: [Introduction](README.md#one-introduction-1)  
+### :two: [Business Task](README.md#two-business-task-1)  
+### :three: [Data Sources](README.md#three-data-sources-1)  
+### :four: [Data Cleaning and Exploration](README.md#four-data-cleaning-and-exploration-1)  
+### :five: [Data Analysis and Visualizations](README.md#five-data-analysis-and-visualizations-1)  
+### :six: [Conclusion](README.md#six-conclusion-1)  
+### :seven: [Extending This Analysis](README.md#seven-extending-this-analysis-1)  
 &nbsp;
 ## :one: Introduction
 
