@@ -54,18 +54,20 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 
 ### Share and Number of Trips by Rider Type
 ![trips_by_rt](https://user-images.githubusercontent.com/107435563/186161555-6b621974-1b7a-4e2c-baf4-a69f0d2ea7a0.png)
-#### **Insights**
-*
+#### **Insight**
+* From July 2021 to June 2022, member riders made up around 60% of total trips and took 1.76 million trips, or about 600,000 more trips than casual riders.
 
 ### Number of Trips by Day of Week and Rider Type
 ![trips_by_dow_rt](https://user-images.githubusercontent.com/107435563/186161742-94605ac8-627a-4d48-b58c-2e01254fd489.png)
 #### **Insights**
-*
+* On Saturdays and Sundays, member riders and casual riders took a similar number of trips, taking between 200,000 and 250,000 trips each day during the time period.
+* Member riders tended to take more trips on weekdays versus weekends, with daily trips being the most on Wednesdays at over 275,000 during the time period.
+* Casual riders tended to take fewer trips on weekdays versus weekends, with daily trips ranging between 128,000 and 139,000 from Mondays through Thursdays during the time period.
 
 ### Number of Trips by Month/Season and Rider Type
 ![trips_by_m_s_rt](https://user-images.githubusercontent.com/107435563/186162681-f0f288b3-00e4-4a46-b26c-7a7ce8827b21.png)
 #### **Insights**
-*
+* 
 
 ### Number of Trips by Rider Type and Bike Type
 ![trips_by_bt_rt](https://user-images.githubusercontent.com/107435563/186163044-110ea0fe-3faf-4271-8c20-290871231fbd.png)
