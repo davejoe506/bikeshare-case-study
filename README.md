@@ -52,6 +52,12 @@ The aforementioned SQL data cleaning and exploration queries involved using `UNI
 
 ## :five: Data Analysis and Visualizations
 
+![top_10_ssn_c_map](https://user-images.githubusercontent.com/107435563/186158479-16894727-7ff5-402e-ab75-2a92a1a55a37.png)
+
+
+![top_10_ssn_c](https://user-images.githubusercontent.com/107435563/186158251-d1607338-1550-4ca6-ad22-ce6190cff9df.png)
+
+
 ## :six: Conclusion
 
 ## :seven: Extending This Analysis
